@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "terzo-stop-and-code-tasks": {
+    "gestione-tasks": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/terzo-stop-and-code-tasks",
+            "outputPath": "dist/gestione-tasks",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -39,6 +39,7 @@
               }
             ],
             "styles": [
+              "node_modules/bootstrap/scss/bootstrap.scss",
               "src/styles.scss"
             ],
             "scripts": []
@@ -71,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "terzo-stop-and-code-tasks:build:production"
+              "buildTarget": "gestione-tasks:build:production"
             },
             "development": {
-              "buildTarget": "terzo-stop-and-code-tasks:build:development"
+              "buildTarget": "gestione-tasks:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -98,6 +99,7 @@
               }
             ],
             "styles": [
+              "node_modules/bootstrap/scss/bootstrap.scss",
               "src/styles.scss"
             ],
             "scripts": []

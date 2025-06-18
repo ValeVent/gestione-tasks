@@ -1,0 +1,14 @@
+<h1 class="my-3 mx-5">TASK:</h1>
+<ul class="list-group my-2 mx-5">
+  <li *ngFor="let task of tasks" class="list-group-item">
+    <p>{{ task.description }}</p>
+    <p class="text-uppercase" [ngClass]="{ 'low' : task.urgency === 'low', 'medium' : task.urgency === 'medium', 'high' : task.urgency === 'high' }">{{ task.urgency }} </p>
+    <div class="d-flex justify-content-end">
+        <button class="btn btn-danger me-2" (click)="eliminaTask(task.id)">Elimina</button>
+        <button class="btn btn-success" routerLink="/dettaglio/{{ task.id }}">Dettaglio</button>
+    </div>
+  </li>
+</ul>
+
+<button class="btn btn-primary my-3 mx-5" routerLink="/aggiungi">Aggiungi Task</button>
+

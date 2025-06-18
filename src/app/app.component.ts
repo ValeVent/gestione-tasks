@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Task } from './types/task.type';
+import { TaskService } from './services/task.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'terzo-stop-and-code-tasks';
+  title = 'terzo-stop-and-code-tasks';  
+
+  tasks: Task[] = [];
+
+  constructor(private taskService: TaskService) { }
+  
 }

@@ -1,0 +1,47 @@
+<button class="btn btn-primary my-5 mx-5" routerLink="/homepage">Homepage</button>
+
+<h2 class="my-3 mx-5">Aggiungi Task</h2>
+
+<div class="container my-3 mx-5">
+    <form #loginForm="ngForm" (ngSubmit)="aggiungiNuovoTask(loginForm)">
+        <div class="form-group mb-2">
+            <input placeholder="Titolo" 
+            type="text"
+            name="title"
+            class="form-control"
+            [(ngModel)]="task.title"
+            required
+            #title="ngModel"
+            >
+            <div class="text-danger" *ngIf="title.invalid && title.touched">
+                <p *ngIf="title.errors?.['required']">Inserisci un titolo</p>
+            </div>
+        </div>
+        <div class="form-group mb-2">
+            <input type="text" placeholder="Descrizione" 
+            type="text"
+            name="description"
+            class="form-control"
+            [(ngModel)]="task.description"
+            required
+            #description="ngModel"
+            >
+            <div class="text-danger" *ngIf="description.invalid && description.touched">
+                <p *ngIf="description.errors?.['required']">Inserisci una descrizione</p>
+            </div>
+        </div>
+        <select class="form-control"
+            type="select"
+            name="urgency"
+            [(ngModel)]="task.urgency"
+            #urgency="ngModel">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+
+        <button type="submit" class="btn btn-primary my-3" [disabled]="loginForm.invalid">Aggiungi</button>
+
+    </form>
+</div>
+

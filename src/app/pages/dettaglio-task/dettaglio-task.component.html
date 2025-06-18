@@ -1,0 +1,9 @@
+<button class="btn btn-primary my-5 mx-5" routerLink="/homepage">Homepage</button>
+
+<div *ngIf="task" class="d-flex flex-column my-3 mx-5">
+  <h5>Dettaglio Task {{ task.id }}</h5>
+  <p>Titolo: {{ task.title }}</p>
+  <p>Descrizione: {{ task.description }}</p>
+</div>
+
+
