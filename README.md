@@ -48,7 +48,7 @@ L'applicazione "Gestione Tasks" è una Single Page Application (SPA) che offre u
 
 Segui questi passaggi per configurare ed eseguire il progetto localmente:
 
-# Prerequisiti
+## Prerequisiti
 
 - Node.js (versione LTS raccomandata)
 
@@ -59,7 +59,7 @@ Segui questi passaggi per configurare ed eseguire il progetto localmente:
 npm install -g @angular/cli
 
 
-# Installazione
+## Installazione
 
 1. Clona il repository (o scarica la cartella del progetto):
 
@@ -76,7 +76,7 @@ cd progetto-gestione-tasks
 npm install
 
 
-# Avvio dell'Applicazione
+## Avvio dell'Applicazione
 
 1. Avvia il server di sviluppo Angular:
 
