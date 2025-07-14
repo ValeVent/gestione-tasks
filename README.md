@@ -3,12 +3,12 @@
 Questo progetto è un'applicazione web sviluppata in Angular per la gestione delle attività (tasks). Permette agli utenti di visualizzare un elenco di tasks, aggiungerne di nuovi, visualizzare i dettagli di un task specifico ed eliminarlo.
 
 
-Descrizione Approfondita del Progetto
+# Descrizione Approfondita del Progetto
 
 L'applicazione "Gestione Tasks" è una Single Page Application (SPA) che offre una soluzione semplice per organizzare le proprie attività. I tasks sono caratterizzati da un titolo, una descrizione e un livello di urgenza (basso, medio, alto). Il progetto utilizza il routing di Angular per navigare tra diverse viste: una lista principale dei tasks, un form per aggiungerne di nuovi, e una pagina di dettaglio per ogni task. I dati iniziali dei tasks vengono caricati da un file JSON e sono gestiti tramite un servizio Angular, garantendo una separazione chiara delle responsabilità.
 
 
-Tecnologie Utilizzate
+# Tecnologie Utilizzate
 
 - Angular: Framework per la costruzione dell'applicazione web.
 
