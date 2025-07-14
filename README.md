@@ -3,12 +3,12 @@
 Questo progetto è un'applicazione web sviluppata in Angular per la gestione delle attività (tasks). Permette agli utenti di visualizzare un elenco di tasks, aggiungerne di nuovi, visualizzare i dettagli di un task specifico ed eliminarlo.
 
 
-### Descrizione Approfondita del Progetto
+## Descrizione Approfondita del Progetto
 
 L'applicazione "Gestione Tasks" è una Single Page Application (SPA) che offre una soluzione semplice per organizzare le proprie attività. I tasks sono caratterizzati da un titolo, una descrizione e un livello di urgenza (basso, medio, alto). Il progetto utilizza il routing di Angular per navigare tra diverse viste: una lista principale dei tasks, un form per aggiungerne di nuovi, e una pagina di dettaglio per ogni task. I dati iniziali dei tasks vengono caricati da un file JSON e sono gestiti tramite un servizio Angular, garantendo una separazione chiara delle responsabilità.
 
 
-# Tecnologie Utilizzate
+## Tecnologie Utilizzate
 
 - Angular: Framework per la costruzione dell'applicazione web.
 
@@ -27,7 +27,7 @@ L'applicazione "Gestione Tasks" è una Single Page Application (SPA) che offre u
 - Bootstrap 5: Framework CSS utilizzato per il layout e lo stile di base (es. btn, form-control, list-group, classi di utilità per il layout).
 
 
-# Funzionalità Principali
+## Funzionalità Principali
 
 - Visualizzazione Lista Tasks: Mostra tutti i tasks con la loro descrizione e il livello di urgenza, evidenziato da un colore specifico (verde per basso, arancione per medio, rosso per alto).
 
@@ -44,11 +44,11 @@ L'applicazione "Gestione Tasks" è una Single Page Application (SPA) che offre u
 - Pagina 404: Una pagina dedicata per gestire percorsi URL non trovati.
 
 
-# Come Avviare il Progetto
+## Come Avviare il Progetto
 
 Segui questi passaggi per configurare ed eseguire il progetto localmente:
 
-## Prerequisiti
+### Prerequisiti
 
 - Node.js (versione LTS raccomandata)
 
@@ -59,7 +59,7 @@ Segui questi passaggi per configurare ed eseguire il progetto localmente:
 npm install -g @angular/cli
 
 
-## Installazione
+### Installazione
 
 1. Clona il repository (o scarica la cartella del progetto):
 
@@ -76,7 +76,7 @@ cd progetto-gestione-tasks
 npm install
 
 
-## Avvio dell'Applicazione
+### Avvio dell'Applicazione
 
 1. Avvia il server di sviluppo Angular:
 
@@ -84,12 +84,12 @@ ng serve
 
 2. Apri il tuo browser web e naviga su http://localhost:4200/. L'applicazione si ricaricherà automaticamente ad ogni modifica dei file sorgente.
 
-# Stato del Progetto
+## Stato del Progetto
 
 Questo progetto è un'applicazione Angular completa e funzionale che dimostra l'uso di componenti, servizi, routing e gestione dei form, fornendo una solida base per applicazioni più complesse. I dati sono gestiti in memoria e non persistono al ricaricamento della pagina.
 
 
-# Contatti
+## Contatti
 
 - GitHub: https://github.com/ValeVent
 
