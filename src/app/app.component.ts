@@ -8,7 +8,7 @@ import { TaskService } from './services/task.service';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'terzo-stop-and-code-tasks';  
+  title = 'gestione-tasks';  
 
   tasks: Task[] = [];
 
