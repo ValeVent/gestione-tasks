@@ -10,38 +10,38 @@ L'applicazione "Gestione Tasks" è una Single Page Application (SPA) che offre u
 
 ## Tecnologie Utilizzate
 
-- Angular: Framework per la costruzione dell'applicazione web.
+- **Angular**: Framework per la costruzione dell'applicazione web.
 
-- TypeScript: Linguaggio di programmazione per lo sviluppo dell'applicazione.
+- **TypeScript**: Linguaggio di programmazione per lo sviluppo dell'applicazione.
 
-- HTML: Struttura dei componenti e dei template.
+- **HTML**: Struttura dei componenti e dei template.
 
-- SCSS (Sass): Per lo styling dei componenti, con classi che indicano i livelli di urgenza.
+- **SCSS (Sass)**: Per lo styling dei componenti, con classi che indicano i livelli di urgenza.
 
-- Angular Router: Per la navigazione tra le diverse pagine/viste dell'applicazione.
+- **Angular Router**: Per la navigazione tra le diverse pagine/viste dell'applicazione.
 
-- Angular Forms (Template-driven forms): Per la gestione dei form di input e la validazione.
+- **Angular Forms (Template-driven forms)**: Per la gestione dei form di input e la validazione.
 
-- JSON: Utilizzato per fornire un set iniziale di dati per i tasks.
+- **JSON**: Utilizzato per fornire un set iniziale di dati per i tasks.
 
-- Bootstrap 5: Framework CSS utilizzato per il layout e lo stile di base (es. btn, form-control, list-group, classi di utilità per il layout).
+- **Bootstrap 5**: Framework CSS utilizzato per il layout e lo stile di base (es. btn, form-control, list-group, classi di utilità per il layout).
 
 
 ## Funzionalità Principali
 
-- Visualizzazione Lista Tasks: Mostra tutti i tasks con la loro descrizione e il livello di urgenza, evidenziato da un colore specifico (verde per basso, arancione per medio, rosso per alto).
+- **Visualizzazione Lista Tasks**: Mostra tutti i tasks con la loro descrizione e il livello di urgenza, evidenziato da un colore specifico (verde per basso, arancione per medio, rosso per alto).
 
-- Aggiunta Nuovo Task: Un form dedicato per inserire nuovi tasks, con campi per titolo, descrizione e selezione dell'urgenza. Include validazione client-side per i campi obbligatori.
+- **Aggiunta Nuovo Task**: Un form dedicato per inserire nuovi tasks, con campi per titolo, descrizione e selezione dell'urgenza. Include validazione client-side per i campi obbligatori.
 
-- Dettaglio Task: Cliccando su un task nella lista, si accede a una pagina dedicata che mostra tutti i dettagli di quel task.
+- **Dettaglio Task**: Cliccando su un task nella lista, si accede a una pagina dedicata che mostra tutti i dettagli di quel task.
 
-- Eliminazione Task: Possibilità di rimuovere un task dalla lista.
+- **Eliminazione Task**: Possibilità di rimuovere un task dalla lista.
 
-- Routing: Navigazione fluida tra la homepage (lista tasks), la pagina di aggiunta e le pagine di dettaglio.
+- **Routing**: Navigazione fluida tra la homepage (lista tasks), la pagina di aggiunta e le pagine di dettaglio.
 
-- Gestione Dati con Servizio: I dati dei tasks sono gestiti centralmente da un servizio Angular, che carica i dati iniziali da un file JSON e fornisce metodi per aggiungere, eliminare e recuperare tasks.
+- **Gestione Dati con Servizio**: I dati dei tasks sono gestiti centralmente da un servizio Angular, che carica i dati iniziali da un file JSON e fornisce metodi per aggiungere, eliminare e recuperare tasks.
 
-- Pagina 404: Una pagina dedicata per gestire percorsi URL non trovati.
+- **Pagina 404**: Una pagina dedicata per gestire percorsi URL non trovati.
 
 
 ## Come Avviare il Progetto
@@ -91,11 +91,11 @@ Questo progetto è un'applicazione Angular completa e funzionale che dimostra l'
 
 ## Contatti
 
-- GitHub: https://github.com/ValeVent
+- **GitHub**: https://github.com/ValeVent
 
-- LinkedIn: https://www.linkedin.com/in/valentina-venturo
+- **LinkedIn**: https://www.linkedin.com/in/valentina-venturo
 
-- Sito Web: http://www.valentinaventuro.it
+- **Sito Web**: http://www.valentinaventuro.it
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
 
